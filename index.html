@@ -7,15 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body id="football-body">
-    <h2 id="takim-1">Takım A</h2>
+    <div>
+        <h2 id="takim-1">Takım A</h2>
     <p>Score : <span id="score">0</span></p>
     <button onclick="myFunction()">Takım değiştir</button>
     <button id="ses_id" class="plus">Gooooll!</button>
     <button id="ses-2" class="minus">Gol İptali</button>
     <button class="plus-2">+2 Gooooll!</button> 
     <button class="plus-3">+3 Gooooll!</button>
+    </div>
 
 
+   <div>
     <h2 id="takim-2">Takım B</h2>
     <p>Score : <span id="span-score">0</span></p>
     <button onclick="myFunction2()">Takım değiştir</button>
@@ -23,7 +26,11 @@
     <button id="ses-2" class="minus">Gol İptali</button>
     <button class="plus-2">+2 Gooooll!</button> 
     <button class="plus-3">+3 Gooooll!</button>
+   </div>
     
+    <audio src="./ses/goal-sesi-1.m4a" id="ses-1-1"></audio>
+    <audio src="./ses/goliptali.m4a" id="ses-1-2"></audio>
+    <audio src="./ses/mesela-yani.m4a" id="ses-1-3"></audio>
 
 <script src="App.js"></script>
 </body>

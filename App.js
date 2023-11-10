@@ -70,3 +70,44 @@ if (takim != "") {
   
 };
 };
+
+const ses1 = document.querySelectorAll("#ses_id"),
+      ses2 = document.querySelectorAll("#ses-2");
+
+      ses1[0].addEventListener("click", function(){
+        let audio= document.getElementById("ses-1-1") 
+        audio.play()
+      });
+      ses1[1].addEventListener("click", function(){
+        let audio= document.getElementById("ses-1-1") 
+        audio.play()
+      });
+
+      ses2[0].addEventListener("click",function(){
+        let iptal= document.getElementById("ses-1-2")
+        iptal.play()
+      });
+      ses2[1].addEventListener("click",function(){
+        let iptal= document.getElementById("ses-1-2")
+        iptal.play()
+      });
+
+      let mesela = document.querySelectorAll(".plus-2"),
+          meseLa = document.querySelectorAll(".plus-3");
+      mesela[0].addEventListener("click",function(){
+        let mesela1= document.getElementById("ses-1-3")
+        mesela1.play()
+      });
+      mesela[1].addEventListener("click",function(){
+        let mesela1= document.getElementById("ses-1-3")
+        mesela1.play()
+      });
+
+      meseLa[0].addEventListener("click", function(){
+        let mesela2=document.getElementById("ses-1-3")
+        mesela2.play()
+      });
+      meseLa[1].addEventListener("click", function(){
+        let mesela2=document.getElementById("ses-1-3")
+        mesela2.play()
+      });
